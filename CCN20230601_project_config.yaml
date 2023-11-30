@@ -1,0 +1,18 @@
+id: CCN20230601
+title: NHP Basal Ganglia demo
+description: Atlas of non-human primate basal ganglia, developed in collaboration with the BRAIN Initiative Cell Census Network (BICCN).
+github_org: hkir-dev
+repo: nhp_basal_ganglia_demo
+author: https://orcid.org/0000-0002-4436-969X
+accession_id_prefix: AIT115
+citation: ''
+creators:
+  - https://orcid.org/0000-0002-4436-969X
+annotation_transfer:
+  - taxonomy_id: CCN202002013
+    mirror_from: https://purl.bican.org/taxonomy/CCN202002013/CCN202002013.json
+  - taxonomy_id: CCN201912132
+    mirror_from: https://purl.bican.org/taxonomy/CCN201912132/CCN201912132.json
+
+# github_user_email: huseyin_kir@yahoo.com
+# github_user_name: Huseyin Kir
