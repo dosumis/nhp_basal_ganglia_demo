@@ -18,3 +18,60 @@ datatype	description		empty	text		a description of this datatype
 datatype	SQLite type		empty	sql_type		the SQL type for representing this data in SQLite
 datatype	PostgreSQL type		empty	sql_type		the SQL type for representing this data in PostgreSQL
 datatype	HTML type		empty	html_type		the HTML type for viewing and editing this data
+AIT115_annotation_sheet	cluster_id	cluster_id		word	primary	
+AIT115_annotation_sheet	cluster_name	cluster name	empty	text		
+AIT115_annotation_sheet	level 5 _cell type_	level 5  cell type	empty	text		
+AIT115_annotation_sheet	level 4 _supertype_	level 4  supertype	empty	text		
+AIT115_annotation_sheet	level 3 _subclass_	level 3  subclass	empty	text		
+AIT115_annotation_sheet	level 2 _neighborhood_	level 2  neighborhood	empty	text		
+AIT115_annotation_sheet	level1 _class_	level1  class	empty	text		
+AIT115_annotation_sheet	region.info _Frequency_	region.info  Frequency	empty	text		
+AIT115_annotation_sheet	Curated markers	Curated markers	empty	text		
+AIT115_annotation_sheet	NSForest markers _Combo_	NSForest markers  Combo	empty	text		
+AIT115_annotation_sheet	Binary genes	Binary genes	empty	text		
+AIT115_annotation_sheet	NSForest F1 score	NSForest F1 score	empty	text		
+AIT115_annotation_sheet	Cluster size	Cluster size	empty	text		
+AIT115_annotation_sheet	Gene counts	Gene counts	empty	text		
+AIT115_annotation_sheet	UMI counts	UMI counts	empty	text		
+AIT115_annotation_sheet	Notes	Notes	empty	text		
+AIT115_annotation_sheet_annotation	cell_set_accession	cell set accession		word	primary	
+AIT115_annotation_sheet_annotation	cell_label	cell label	empty	text		
+AIT115_annotation_sheet_annotation	cell_fullname	cell fullname	empty	text		
+AIT115_annotation_sheet_annotation	parent_cell_set_accession	parent cell set accession	empty	text		
+AIT115_annotation_sheet_annotation	parent_cell_set_name	parent cell set name	empty	text		
+AIT115_annotation_sheet_annotation	labelset	labelset	empty	text		
+AIT115_annotation_sheet_annotation	cell_ontology_term_id	cell ontology term id	empty	autocomplete_cl		
+AIT115_annotation_sheet_annotation	cell_ontology_term	cell ontology term	empty	ontology_label		
+AIT115_annotation_sheet_annotation	rationale	rationale	empty	text		
+AIT115_annotation_sheet_annotation	rationale_dois	rationale dois	empty	text		
+AIT115_annotation_sheet_annotation	marker_gene_evidence	marker gene evidence	empty	text		
+AIT115_annotation_sheet_annotation	synonyms	synonyms	empty	text		
+AIT115_annotation_sheet_annotation	region.info _Frequency_	region.info  Frequency	empty	text		
+AIT115_annotation_sheet_annotation	Binary genes	Binary genes	empty	text		
+AIT115_annotation_sheet_annotation	NSForest F1 score	NSForest F1 score	empty	text		
+AIT115_annotation_sheet_annotation	Cluster size	Cluster size	empty	text		
+AIT115_annotation_sheet_annotation	Gene counts	Gene counts	empty	text		
+AIT115_annotation_sheet_annotation	UMI counts	UMI counts	empty	text		
+AIT115_annotation_sheet_annotation	Curated markers	Curated markers	empty	text		
+AIT115_annotation_sheet_annotation	Notes	Notes	empty	text		
+AIT115_annotation_sheet_labelset	name	name		word	primary	
+AIT115_annotation_sheet_labelset	description	description	empty	text		
+AIT115_annotation_sheet_labelset	rank	rank	empty	text		
+AIT115_annotation_sheet_labelset	annotation_method	annotation method	empty	text		
+AIT115_annotation_sheet_labelset	automated_annotation_algorithm_name	automated annotation algorithm name	empty	text		
+AIT115_annotation_sheet_labelset	automated_annotation_algorithm_version	automated annotation algorithm version	empty	text		
+AIT115_annotation_sheet_labelset	automated_annotation_algorithm_repo_url	automated annotation algorithm repo url	empty	text		
+AIT115_annotation_sheet_labelset	automated_annotation_reference_location	automated annotation reference location	empty	text		
+AIT115_annotation_sheet_metadata	cellannotation_schema_version	cellannotation_schema_version		word	primary	
+AIT115_annotation_sheet_metadata	cellannotation_timestamp	cellannotation timestamp	empty	text		
+AIT115_annotation_sheet_metadata	cellannotation_version	cellannotation version	empty	text		
+AIT115_annotation_sheet_metadata	cellannotation_url	cellannotation url	empty	text		
+AIT115_annotation_sheet_metadata	author_name	author name	empty	text		
+AIT115_annotation_sheet_metadata	author_contact	author contact	empty	text		
+AIT115_annotation_sheet_metadata	orcid	orcid	empty	text		
+AIT115_annotation_sheet_annotation_transfer	target_node_accession	target_node_accession		word	primary	
+AIT115_annotation_sheet_annotation_transfer	transferred_cell_label	transferred cell label	empty	text		
+AIT115_annotation_sheet_annotation_transfer	source_taxonomy	source taxonomy	empty	text		
+AIT115_annotation_sheet_annotation_transfer	source_node_accession	source node accession	empty	text		
+AIT115_annotation_sheet_annotation_transfer	algorithm_name	algorithm name	empty	text		
+AIT115_annotation_sheet_annotation_transfer	comment	comment	empty	text		
