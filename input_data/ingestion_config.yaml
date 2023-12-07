@@ -11,7 +11,7 @@ fields:
     rank: 0
 
   - column_name: Cluster
-    column_type: cluster_name
+    column_type: Cluster
     rank: 0
 
   - column_name: Subclass
