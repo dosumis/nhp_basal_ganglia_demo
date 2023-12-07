@@ -10,19 +10,19 @@ fields:
     column_type: cluster_id
     rank: 0
 
-  - column_name: cluster_name
-    column_type: cluster_name
+  - column_name: Cluster
+    column_type: Cluster
     rank: 0
 
-  - column_name: level 3 (subclass)
+  - column_name: Subclass
     column_type: cell_set
     rank: 1
 
-  - column_name: level 2 (neighborhood)
+  - column_name: Neighborhood
     column_type: cell_set
     rank: 2
 
-  - column_name: level1 (class)
+  - column_name: Class
     column_type: cell_set
     rank: 3
 
